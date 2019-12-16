@@ -32,6 +32,13 @@ This is a replication and example of the homework in which students were assigne
     
     
     2. bamazonManager.js
+    
+        ==============================================
+    
+    ![BamazonCustomer](https://github.com/melonek/bamazon/blob/master/gifs/bamazonManagerGif.gif?raw=true)
+    
+    ==============================================
+    
     3. bamazonSupervisor.js
 
 ## Libraries/NPMs
