@@ -9,3 +9,28 @@ var connection = mysql.createConnection({
   password: "helloworld",
   database: "bamazon"
 });
+
+connection.connect(function(err, res) {
+    if (err) {
+      throw err;
+    } else {
+      //console.log("Database connection made!")
+    }
+  });
+  
+  inquirer
+    .prompt([
+      {
+        type: "list",
+        message: "What action would you like to do?",
+        name: "selection",
+        choices: [
+          "Products for Sale",
+          "View Low Inventory",
+          "Add to Inventory",
+          "Add New Product"
+        ]
+      }
+      /* Pass your questions in here */
+    ])
+    
