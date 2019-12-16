@@ -17,7 +17,7 @@ connection.connect(function(err, res) {
 
 connection.query("SELECT * FROM product", function(err, res) {
   if (err) throw err;
-  // console.table(res);
+  console.table(res);
 
   let choices = [];
   for (let i = 0; i < res.length; i++) {
