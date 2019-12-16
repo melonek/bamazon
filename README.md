@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a replication and example of the homework in which students were assigned to create an Amazon-like storefront with the MySQL skills learned in unit 12. The app takes in orders from customers and deplete stock from the store's inventory. This app fufills the bonus task, tracking product sales across your store's departments and then providing a summary of the highest-grossing departments in the store
+This is a replication and example of the homework in which students were assigned to create an Amazon-like storefront with the MySQL skills learned in previous classes. The app takes in orders from customers and deplete stock from the store's inventory. This app fufills the bonus task, tracking product sales across your store's departments and then providing a summary of the highest-grossing departments in the store
 
 ## Learning Objectives
 
@@ -21,6 +21,7 @@ This is a replication and example of the homework in which students were assigne
     2. bamazonManager.js
     3. bamazonSupervisor.js
 4. Run node against one of the three applications, 
+
     1. bamazonCustomer.js
     
     
