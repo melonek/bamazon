@@ -4,7 +4,7 @@ const cTable = require("console.table");
 
 var connection = mysql.createConnection({
   host: "localhost",
-  port: "3306",
+  port: 3306,
   user: "root",
   password: "helloworld",
   database: "bamazon"
@@ -32,7 +32,7 @@ inquirer
     var selection = answers.selection;
     if (selection === "View product Sales by Department") {
       connection.query(
-        "SELECT d.department_id, department_name, SUM(over_head_costs), SUM(p.product_sales), SUM(p.product_sales) - SUM(over_head_costs) FROM department as d JOIN product as p on p.department_id = d.department_id GROUP BY department_name",
+        "SELECT department_name, SUM(over_head_costs), SUM(p.product_sales), SUM(p.product_sales) - SUM(over_head_costs) FROM department as d JOIN product as p on p.department_id = d.department_id GROUP BY department_name",
         function(err, res) {
           if (err) {
             throw err;
