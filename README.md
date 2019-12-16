@@ -22,6 +22,15 @@ This is a replication and example of the homework in which students were assigne
     3. bamazonSupervisor.js
 4. Run node against one of the three applications, 
     1. bamazonCustomer.js
+    
+    
+    ==============================================
+    
+    ![BamazonCustomer](https://github.com/melonek/bamazon/blob/master/gifs/bamazonCustomerGif.gif?raw=true)
+    
+    ==============================================
+    
+    
     2. bamazonManager.js
     3. bamazonSupervisor.js
 
